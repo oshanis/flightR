@@ -124,7 +124,7 @@ library(plyr)
 library(ggplot2)
 library(sp)
  
-airports <- read.csv("http://www.stanford.edu/~cengel/cgi-bin/anthrospace/wp-content/uploads/2012/03/airports.csv", as.is=TRUE, header=TRUE)
+airports <- read.csv("data/airports.csv", as.is=TRUE, header=TRUE)
 flights <- read.csv("http://www.stanford.edu/~cengel/cgi-bin/anthrospace/wp-content/uploads/2012/03/PEK-openflights-export-2012-03-19.csv", as.is=TRUE, header=TRUE)
  
 # aggregate nunber of flights
