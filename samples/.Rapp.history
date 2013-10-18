@@ -1,0 +1,8 @@
+help(pmin)
+library(rgl)
+plot(iris)
+ls()
+source('flightpaths-googlemaps.r')
+source('flightpaths-googlemaps.r')
+source('flightpaths-googlemaps.r')
+source('flightpaths-googlemaps.r')
